@@ -25,21 +25,15 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 - [Requisitos do projeto](#requisitos-do-projeto)
 
     `Requisitos obrigatórios:`
-    - [1 - Crie uma função usando o operador &&](#1---crie-uma-função-usando-o-operador-)
-    - [2 - Crie uma função que calcule a área do triângulo](#2---crie-uma-função-que-calcule-a-área-do-triângulo)
-    - [3 - Crie uma função que divida a frase](#3---crie-uma-função-que-divida-a-frase)
-    - [4 - Crie uma função que use concatenação de strings](#4---crie-uma-função-que-use-concatenação-de-strings)
-    - [5 - Crie uma função que calcule a quantidade de pontos no futebol](#5---crie-uma-função-que-calcule-a-quantidade-de-pontos-no-futebol)
-    - [6 - Crie uma função que calcule a repetição do maior número](#6---crie-uma-função-que-calcule-a-repetição-do-maior-número)
-    - [7 - Crie uma função de Caça ao rato](#7---crie-uma-função--de-caça-ao-rato)
-    - [8 - Crie uma função FizzBuzz](#8---crie-uma-função-fizzbuzz)
-    - [9 - Crie uma função que Codifique e Decodifique](#9---crie-uma-função-que-codifique-e-decodifique)
-    - [10 - Crie uma função de Lista de tecnologias](#10---crie-uma-função-de-lista-de-tecnologias)
-
+    - [1 - Crie uma caixa de texto com a qual quem usa pode interagir para inserir texto em cima da imagem escolhida.](#1---crie-uma-caixa-de-texto-com-a-qual-quem-usa-pode-interagir-para-inserir-texto-em-cima-da-imagem-escolhida)
+    - [2 - O site deve permitir que quem usa faça upload de uma imagem de seu computador.](#2---o-site-deve-permitir-que-quem-usa-faça-upload-de-uma-imagem-de-seu-computador)
+    - [3 - Adicione uma moldura no container. A moldura deve ter 1 pixel de largura, deve ser preta e do tipo 'solid'. A área onde a imagem aparecerá deve ter fundo branco.](#3---adicione-uma-moldura-no-container-a-moldura-deve-ter-1-pixel-de-largura-deve-ser-preta-e-do-tipo-solid-a-área-onde-a-imagem-aparecerá-deve-ter-fundo-branco)
+    - [4 - Adicione o texto que será inserido sobre a imagem deve ter uma cor, sombra e tamanho específicos.](#4---adicione-o-texto-que-será-inserido-sobre-a-imagem-deve-ter-uma-cor-sombra-e-tamanho-específicos)
+    - [5 - Limite o tamanho do texto que o usuário pode inserir.](#5---limite-o-tamanho-do-texto-que-o-usuário-pode-inserir)
+   
     `Requisitos bônus:`
-    - [11 - Crie uma função de Número de telefone](#11---crie-uma-função-de-número-de-telefone)
-    - [12 - Crie uma função de Condição de existência de um triângulo](#12---crie-uma-função-de-condição-de-existência-de-um-triângulo)
-    - [13 - Crie uma função de Bem vindo ao Bar da Trybe!](#13---crie-uma-função-de-bem-vindo-ao-bar-da-trybe)
+    - [6 - Permita a quem usa customizar o meme escolhido acrescentando a ele uma de três bordas. A página deve ter três botões, que ao serem clicados devem cada um trocar a própria borda ao redor do container.](#6---permita-a-quem-usa-customizar-o-meme-escolhido-acrescentando-a-ele-uma-de-três-bordas-a-página-deve-ter-três-botões-que-ao-serem-clicados-devem-cada-um-trocar-a-própria-borda-ao-redor-do-container)
+    - [7 - Tenha um conjunto de quatro imagens pré prontas de memes famosos para o usuário escolher. Mostre miniaturas das imagens e, mediante clique do usuário, essa imagem deve aparecer dentro da moldura do elemento de container.](#7---tenha-um-conjunto-de-quatro-imagens-pré-prontas-de-memes-famosos-para-o-usuário-escolher-mostre-miniaturas-das-imagens-e-mediante-clique-do-usuário-essa-imagem-deve-aparecer-dentro-da-moldura-do-elemento-de-container)
 - [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
 - [Revisando um pull request](#revisando-um-pull-request)
 - [Avisos Finais](#avisos-finais)
