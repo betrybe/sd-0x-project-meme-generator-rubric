@@ -1,3 +1,8 @@
+### Termos e acordos
+
+Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do
+Manual da Pessoa Estudante da Trybe.
+
 # Boas vindas ao repositório do projeto Meme Generator!
 
 Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
@@ -6,9 +11,80 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 ---
 
+# Sumário
+
+- [Habilidades](#habilidades)
+- [Entregáveis](#entregáveis)
+  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
+  - [Data de Entrega](#data-de-entrega)
+- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
+  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
+  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
+- [Como desenvolver](#como-desenvolver)
+  - [Linter](#linter)
+- [Requisitos do projeto](#requisitos-do-projeto)
+
+    `Requisitos obrigatórios:`
+    - [1 - Crie uma função usando o operador &&](#1---crie-uma-função-usando-o-operador-)
+    - [2 - Crie uma função que calcule a área do triângulo](#2---crie-uma-função-que-calcule-a-área-do-triângulo)
+    - [3 - Crie uma função que divida a frase](#3---crie-uma-função-que-divida-a-frase)
+    - [4 - Crie uma função que use concatenação de strings](#4---crie-uma-função-que-use-concatenação-de-strings)
+    - [5 - Crie uma função que calcule a quantidade de pontos no futebol](#5---crie-uma-função-que-calcule-a-quantidade-de-pontos-no-futebol)
+    - [6 - Crie uma função que calcule a repetição do maior número](#6---crie-uma-função-que-calcule-a-repetição-do-maior-número)
+    - [7 - Crie uma função de Caça ao rato](#7---crie-uma-função--de-caça-ao-rato)
+    - [8 - Crie uma função FizzBuzz](#8---crie-uma-função-fizzbuzz)
+    - [9 - Crie uma função que Codifique e Decodifique](#9---crie-uma-função-que-codifique-e-decodifique)
+    - [10 - Crie uma função de Lista de tecnologias](#10---crie-uma-função-de-lista-de-tecnologias)
+
+    `Requisitos bônus:`
+    - [11 - Crie uma função de Número de telefone](#11---crie-uma-função-de-número-de-telefone)
+    - [12 - Crie uma função de Condição de existência de um triângulo](#12---crie-uma-função-de-condição-de-existência-de-um-triângulo)
+    - [13 - Crie uma função de Bem vindo ao Bar da Trybe!](#13---crie-uma-função-de-bem-vindo-ao-bar-da-trybe)
+- [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
+- [Revisando um pull request](#revisando-um-pull-request)
+- [Avisos Finais](#avisos-finais)
+
+
+# Habilidades
+
+- Manipular o DOM.
+
+- Manipular o Javascript.
+
+- Manipular o CSS.
+
+---
+
+# Entregáveis
+
+Para entregar o seu projeto você deverá criar um Pull Request neste repositório.
+
+Este Pull Request deverá conter os arquivos `index.html`, `style.css` e `script.js`, que conterão seu código HTML, CSS e JavaScript, respectivamente.
+
+## ⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
+
+Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, procure a monitoria.
+
+Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
+
+---
+
+## O que deverá ser desenvolvido
+
+- Um site onde é possível fazer o upload de fotos para memes.
+
+---
+
+## Data de Entrega
+
+  - Serão `X` dias de projeto.
+  - Data de entrega para avaliação final do projeto: `DD/MM/YYYY - 14:00h`.
+
+---
+
 ## Instruções para entregar seu projeto:
 
-### 🗒ANTES DE COMEÇAR A DESENVOLVER:
+### Antes de começar a desenvolver:
 
 1. Clone o repositório
   * `git clone https://github.com/tryber/sd-0x-block5-project-meme-generator.git`.
@@ -56,17 +132,34 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 ---
 
-# Entregáveis
+## Durante o desenvolvimento
 
-Para entregar o seu projeto você deverá criar um Pull Request neste repositório.
+* ⚠ **PULL REQUESTS COM ISSUES NO LINTER NÃO SERÃO AVALIADAS, ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠
 
-Este Pull Request deverá conter os arquivos `index.html`, `style.css` e `script.js`, que conterão seu código HTML, CSS e JavaScript, respectivamente.
+* Faça `commits` das alterações que você fizer no código regularmente
 
-## ⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
+* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
 
-Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, procure a monitoria.
+* Os comandos que você utilizará com mais frequência são:
+  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
+  2. `git add` _(para adicionar arquivos ao stage do Git)_
+  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
+  4. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
+  5. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
 
-Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
+---
+
+## Linter
+
+Para garantir a qualidade do seu código de forma a tê-lo mais legível, de mais fácil manutenção e seguindo as boas práticas de desenvolvimento nós utilizamos neste projeto o linter `ESLint` e o `Stylelint`. Para rodar o linter localmente no seu projeto, execute o comando abaixo:
+
+```bash
+npm run lint
+npm run lint:styles
+```
+
+⚠ **PULL REQUESTS COM ISSUES DE LINTER NÃO SERÃO AVALIADAS. ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠
+
 
 ---
 
@@ -119,9 +212,9 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
  **Em outras palavras, um meme generator.** 😜
 
-### 1 - O site deve possuir uma caixa de texto com a qual quem usa pode interagir para inserir texto em cima da imagem escolhida.
+### 1 - Crie uma caixa de texto com a qual quem usa pode interagir para inserir texto em cima da imagem escolhida.
 
-##### As seguintes verificações serão feitas:
+**O que será verificado:**
 
 - A caixa onde o texto é inserido deve ter um `id` denominado `text-input`;
 
@@ -133,7 +226,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 ### 2 - O site deve permitir que quem usa faça upload de uma imagem de seu computador.
 
-##### As seguintes verificações serão feitas:
+**O que será verificado:**
 
 - Dentro do elemento de container, você deve criar um outro elemento para mostrar a imagem selecionada. Este elemento deve possuir um `id` denominado `meme-image`;
 
@@ -143,9 +236,9 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 - O texto inserido no elemento `text-input` deve ser inserido sobre a imagem escolhida `meme-image`.
 
-### 3 - O site deve ter uma moldura no container. A moldura deve ter 1 pixel de largura, deve ser preta e do tipo 'solid'. A área onde a imagem aparecerá deve ter fundo branco.
+### 3 - Adicione uma moldura no container. A moldura deve ter 1 pixel de largura, deve ser preta e do tipo 'solid'. A área onde a imagem aparecerá deve ter fundo branco.
 
-##### As seguintes verificações serão feitas:
+**O que será verificado:**
 
 - O elemento que serve de container para a imagem deve ter o a cor de fundo branca;
 
@@ -153,9 +246,9 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 - A imagem deve estar totalmente contida dentro do elemento identificado como `meme-image-container` ~~("totalmente contida" quer dizer que não deve sobrar espaço entre o container e a imagem, e a imagem não deve ultrapassar o tamanho do container)~~.
 
-### 4 - O texto que será inserido sobre a imagem deve ter uma cor, sombra e tamanho específicos.
+### 4 - Adicione o texto que será inserido sobre a imagem deve ter uma cor, sombra e tamanho específicos.
 
-##### As seguintes verificações serão feitas:
+**O que será verificado:**
 
 - O texto do elemento `meme-text` deve ter uma sombra preta, de 5 pixels na horizontal, 5 pixels na vertical e um raio de desfoque de 5 pixels;
 
@@ -165,16 +258,15 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 ### 5 - Limite o tamanho do texto que o usuário pode inserir.
 
-##### As seguintes verificações serão feitas:
+**O que será verificado:**
 
 -  A quantidade máxima de caracteres digitáveis no elemento `text-input` deve ser 60.
-
 
 ## Requisitos Bônus:
 
 ### 6 - Permita a quem usa customizar o meme escolhido acrescentando a ele uma de três bordas. A página deve ter três botões, que ao serem clicados devem cada um trocar a própria borda ao redor do container.
 
-##### As seguintes verificações serão feitas:
+**O que será verificado:**
 
 - As bordas devem ser acrescentadas ao container, identificado como `meme-image-container`;
 
@@ -218,46 +310,33 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 ---
 
-### DURANTE O DESENVOLVIMENTO
+## Depois de terminar o desenvolvimento
 
-* ⚠ **RECOMENDAMOS QUE VOCÊ FIQUE ATENTO ÀS ISSUES DO CODE CLIMATE, PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO. A PARTIR DO PRÓXIMO BLOCO SEU PROJETO SOMENTE SERÁ AVALIADO SE NÃO TIVER ISSUES NO CODE CLIMATE!** ⚠
+Para **"entregar"** seu projeto, siga os passos a seguir:
 
-* Faça `commits` das alterações que você fizer no código regularmente;
+* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas
+  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
+  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
+  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-0x`
 
-* Lembre-se de sempre após um ~~(ou alguns)~~ `commits` atualizar o repositório remoto (o famoso `git push`);
+Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
 
-* Os comandos que você utilizará com mais frequência são:
-
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_;
-
-  2. `git add` _(para adicionar arquivos ao stage do Git)_;
-
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_;
-
-  5. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_;
-
-  4. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_.
+⚠ Lembre-se que garantir que todas as _issues_ comentadas pelo **Lint** estão resolvidas! ⚠
 
 ---
 
-### DEPOIS DE TERMINAR O DESENVOLVIMENTO (OPCIONAL)
+### Revisando um pull request
 
-Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus colegas, faça o seguinte:
+À medida que você e as outras pessoas que estudam na Trybe forem entregando os projetos, vocês receberão um alerta via Slack para também fazer a revisão dos Pull Requests dos seus colegas. Fiquem atentos às mensagens do "Pull Reminders" no Slack!
 
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
+Use o material que você já viu sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os projetos que chegaram para você.
 
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
+# Avisos Finais
 
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
+Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
 
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-00`.
+Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH)
 
-Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
+O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
 
 ---
-
-### REVISANDO UM PULL REQUEST
-
-Use o conteúdo sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os _Pull Requests_.
-
-#VQV 🚀
