@@ -95,8 +95,6 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
 2. Instale as dependências e inicialize o projeto
   * Instale as dependências:
     * `npm install`
-  * Inicialize o projeto:
-    * `npm start` (uma nova página deve abrir no seu navegador com um texto simples)
 
 3. Crie uma branch a partir da branch `master`
   * Verifique que você está na branch `master`
