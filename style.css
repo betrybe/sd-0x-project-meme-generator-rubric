@@ -30,7 +30,7 @@ header {
   z-index: 10;
 }
 
-p {
+header h1 {
   bottom: 30%;
   color: rgb(108 , 200 , 202);
   display: inline-block;
@@ -41,7 +41,7 @@ p {
   text-shadow: 1.5px 1.5px black;
 }
 
-h1 {
+main h1 {
   color: silver;
   font-family: Dancing Script, cursive;
   font-size: 80px;
